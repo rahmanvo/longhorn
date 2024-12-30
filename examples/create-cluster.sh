@@ -1,8 +1,8 @@
 ProjectName="amancloud-ff723"
 ClusterName="testclus"
-MachineType="e2-medium"
+MachineType="e2-medium" # smaller option is g1-small
 NodeVersion="1.28.15-gke.1388000"
-NumNodes=3
+NumNodes=2
 Location="asia-southeast1"
 
 gcloud beta container --project $ProjectName clusters create $ClusterName \
